@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 1%, 91%);
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: hsl(240, 100%, 50%);
+}
+form{
+    background-color: hsl(0, 1%, 100%);
+    justify-content: center;
+    max-width: 460px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(102, 102, 102);
+}
+h1{
+    margin: 10px 0;
+}
+#conver{
+    font-size: 1.1rem;
+    width: 11rem;
+    height: 1.3rem;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+#toFahrenheit, #toCelsius, #result{
+    margin: 5px 0;
+}
+#toFahrenheit, #toCelsius{
+    cursor: pointer;
+}
+button{
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 1.1rem;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+    background-color: hsla(0, 100%, 50%, 0.715);
+    color: #fff;
+    margin: 10px;
+}

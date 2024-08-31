@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="unitConverter.css">
+    <title>Unit Converter</title>
+</head>
+<body>  
+    <form>
+        <h1>Temperature unit converter</h1>
+        <input type="number" id="textBox" value="0"/><br/>
+
+        <input type="radio" id="toFahrenheit" name="unit"/>
+        <label for="toFahrenheit"> Celsius → Fahrenheit</label><br/>
+
+        <input type="radio" id="toCelsius" name="unit"/>
+        <label for="toCelsius"> Fahrenheit → Celsius</label><br/>
+
+        <button type="button" onclick="cover()">submit</button>
+        <p id="result"></p>
+    </form>
+    <!--
+    特殊符號: windows鍵 + ;鍵 
+    The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+    <input name="..." />
+        name屬性 reference elements in a JavaScript, or to reference form data after a form is submitted.
+        Only form elements with a name attribute will have their values passed when submitting a form. 
+    -->
+    
+</body>
+<script src="unitConverter.js"></script>
+</html>
